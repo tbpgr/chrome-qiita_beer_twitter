@@ -1,6 +1,6 @@
 {
   "name": "qiita ( ˘ω˘)ﾉ\"Y☆Yヾ(˘ω˘ ) twitter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "You can easily get one's qiita article.",
   "icons": {
@@ -12,7 +12,8 @@
     "default_icon": "/icons/icon-48.png"
   },
   "background": {
-    "scripts": ["js/jquery-2.1.1.min.js", "js/background.js"]
+    "scripts": ["js/jquery-2.1.1.min.js", "js/background.js"],
+    "persistent": false
   },
   "content_scripts": [{
     "matches": ["https://twitter.com/*"],
